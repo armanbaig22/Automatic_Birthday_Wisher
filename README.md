@@ -22,7 +22,7 @@ This is a Python script that automates the process of sending birthday emails. I
 1. Clone the repository or download the script file.
 
 2. Install the required libraries by running the following command:
-``` python
+``` bash
 pip install pandas
 
 ```
