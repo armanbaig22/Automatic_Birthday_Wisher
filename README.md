@@ -43,6 +43,29 @@ pip install pandas
 
 7. The script will identify the birthdays for the current date, select a random letter template, personalize it, and send the email to the respective recipients.
 
+
+# Running on PythonAnywhere and Scheduling a Task
+
+To automate the birthday email sending process on a regular basis, you can use a platform like PythonAnywhere and schedule a task to run the script periodically.
+
+Here's how you can do it on PythonAnywhere:
+
+1. Sign up for a PythonAnywhere account at [pythonanywhere.com](https://www.pythonanywhere.com).
+
+2. Create a new "Scheduled Task" from the dashboard.
+
+3. Set the task to run the script by specifying the command:
+   ```
+   python /path/to/script.py
+   ```
+
+4. Configure the desired schedule for the task. For example, you can set it to run daily at a specific time.
+
+5. Save the task and let PythonAnywhere handle the rest. The script will be executed automatically according to the defined schedule.
+
+By running the script on PythonAnywhere and scheduling a task, you can ensure that the birthday emails are sent without manual intervention.
+
+
 ## Notes
 
 - Make sure to generate an app password from your Gmail account settings. Using a normal password may not work due to Gmail's security measures.
